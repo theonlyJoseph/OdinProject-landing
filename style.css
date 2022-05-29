@@ -1,0 +1,32 @@
+*, *::after, *::before
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 14%;
+    background-color: #1f2937;
+}
+
+.image-container {
+    padding-left: 5rem;
+}
+
+.link-container  {
+    display: flex;
+}
+
+.link-container li {
+    padding: 3rem;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
