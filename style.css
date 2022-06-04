@@ -12,33 +12,34 @@ html {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 12%;
     background-color: #1f2937;
 }
 
-.image-container {
-    padding-left: 5.8rem;
-    text-align: center;
-}
-
 .link-container  {
     display: flex;
 }
 
+ .image-container {
+    align-self: center;
+}  
+
+
 .link-container li, .user-feature li {
-    padding: 0 38px;
+    padding: 0 3.8rem;
 
 }
 
 .link-container, .user-feature {
+    padding: 0 1.5rem;
     font-size: 1.8rem;
     color: #e5e7eb;
 }
 
+
 .user-feature {
     display: flex;
 }
-
