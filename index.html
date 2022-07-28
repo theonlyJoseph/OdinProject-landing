@@ -6,44 +6,39 @@
     <title>Landing page</title>
   </head>
   <body>
-    <div class="navbar">
-      <!-- left-section -->
-      <div class="div-1">
+    <nav class="navbar">
+      <div class="icon-container">
+        <img id="odin-svg" src="./assets/odin-icon.svg" alt="odin-icon">
+      </div>
+
+      <div class="link-container">
         <ul class="link-container">
           <li><a href="./home">Home</a></li>
           <li><a href="./contact">Contact</a></li>
           <li><a href="./about">About</a></li>
         </ul>
-      </div>
-      <!-- middle section -->
+      </nav>
 
-      <img
-        class="logo-img"
-        src="https://www.theodinproject.com/assets/icons/odin-icon-b5b31c073f7417a257003166c98cc23743654715305910c068b93a3bf4d3065d.svg"
-        alt=""
-      />
-
-      <!-- right-section -->
-      <div class="div-2">
-        <ul class="user-feature feature-container">
-          <li><a href="./signup">Sign up</a></li>
-          <li><a href="./login">Login</a></li>
-          <li><a href="./cart">Cart</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <main class="hero-section">
-      <ul>
-        <li><h1>This website is awesome</h1></li>
-        <li>
-          <p>
+    <main class="main-section">
+      <section class="hero-section">
+        <div class="hero-container left-hero">
+          <h1 class="hero-text" id="hero-title">This website is awesome</h1>
+          <p class="hero-text" id="hero-caption">
             This is a sample project made by theonlyJoseph <br />
             for practice purpose only please don't go hard on me its my first
             project.
           </p>
-        </li>
-      </ul>
+          <label for="sign-up-btn"></label>
+          <button id></button>
+        </div>
+
+        <div class="img-placeholder right-hero">
+          <p>this is a placeholder for an image</p>
+        </div>
+      </section>
+
+        
+    
     </main>
   </body>
 </html>
